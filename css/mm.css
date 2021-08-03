@@ -1,0 +1,34 @@
+@media (min-width: 992px) {
+  #mainNav.navbar-big {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  #mainNav.navbar-shrink {
+    transition: width 0.4s, height 0.4s, background-color 0.4s;
+  }
+  #mainNav.navbar-shrink #mainlogo {
+    width: 200px;
+    transition: width 0.4s, transform 0.4s;
+  }
+
+  #mainNav.navbar-big #mainlogo {
+    width: 500px;
+    transition: width 0.4s, transform 0.4s;
+    transform: translate(100px, 300px);
+  }
+
+  .masthead .container {
+    margin: 0 !important;
+  }
+
+  video {
+    width: 100% !important;
+    height: auto !important;
+    overflow: hidden;
+    filter: brightness(50%);
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
