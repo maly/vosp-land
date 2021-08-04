@@ -1,3 +1,7 @@
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #0fb4bb !important;
+}
+
 @media (min-width: 992px) {
   #mainNav.navbar-big {
     background-color: rgba(0, 0, 0, 0) !important;
